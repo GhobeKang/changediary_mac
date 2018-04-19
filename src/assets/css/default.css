@@ -1,0 +1,176 @@
+#addIcon {
+  font-size: 299px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0.2;
+}
+#userInfo_leftPanel {
+  max-height : 50px;
+  margin : 13px 0;
+  border-bottom: solid 1px #464646;
+}
+#userInfo_leftPanel>p {
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  font-size: 23px;
+}
+#userInfo_leftPanel>.content-block-inner {
+  width : 115%;
+}
+#logout_btn_left_p, #login_btn_left_p, #con_btn_left_p, #setting {
+  cursor : pointer;
+}
+#logout_btn_left_p:hover, #login_btn_left_p:hover, #con_btn_left_p:hover, #setting:hover {
+  background-color: #323232;
+  box-shadow : 0 0 23px 4px #464646 inset;
+}
+.connection_item {
+  cursor : pointer;
+}
+.connection_item:hover {
+  background-color: #323232;
+  box-shadow : 0 0 23px 4px #464646 inset;
+}
+#searchBtn, #confirmBtn {
+  width: 42vw;
+  height: 5vh;
+  font-size: 19px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  background: white;
+  color: black;
+  border: solid 0.1px #282828;
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+  padding: 0;
+  box-shadow: 5px 4px 5px #c8c8c8;
+}
+#searchBtn:hover, #confirmBtn:hover {
+  box-shadow: 0 0 23px 4px #000000 inset;
+  color : white;
+  background: #c8c8c8;
+}
+.label {
+  color : black
+}
+#profilePhoto {
+  width : 300px;
+}
+.imageOverlay {
+  position: relative;
+  left : 50%;
+  transform: translate(-50%);
+  cursor: pointer;
+}
+.imageOverlay:hover #profilePhoto {
+  opacity : 0.3;
+}
+.imageOverlay:hover #overlayImg {
+  opacity : 1;
+}
+#overlayImg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+}
+#userId_set {
+  position: relative;
+  left : 50%;
+  transform: translate(-50%);
+}
+.photoEditRec {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 75vw;
+  height: 75vw;
+  margin-bottom: 17px;
+  background-color: transparent;
+}
+#confirmBtn_Edit {
+  width: 200px;
+  position: relative;
+  left : 50%;
+  transform: translate(-50%);
+}
+#letterSendBtn, #letterSkinBtn {
+  margin-top : 10px;
+  border-color: deeppink;
+  color: hotpink;
+}
+.initLoading>.loadingTitle {
+  font-size: 60px;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  top: 10%;
+}
+.swiper-container-3d {
+  position: relative;
+  top: 10%;
+}
+#sliderTarget {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 30%;
+  text-shadow: 10px 9px 6px;
+}
+.content-block {
+  margin: 0;
+  padding: 0;
+}
+.sliderImages {
+  width: 80%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%);
+}
+.letter_wrap {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f78d31+0,ff7272+7,f9908e+12,fcb6ab+22,ffd1d1+28,ffd8d8+34,f4f4f4+44 */
+  background: #f78d31; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #f78d31 0%, #ff7272 7%, #f9908e 12%, #fcb6ab 22%, #ffd1d1 28%, #ffd8d8 34%, #f4f4f4 44%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  #f78d31 0%,#ff7272 7%,#f9908e 12%,#fcb6ab 22%,#ffd1d1 28%,#ffd8d8 34%,#f4f4f4 44%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  #f78d31 0%,#ff7272 7%,#f9908e 12%,#fcb6ab 22%,#ffd1d1 28%,#ffd8d8 34%,#f4f4f4 44%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f78d31', endColorstr='#f4f4f4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  height: 98%;
+}
+.letter_header, .letter_content, .letter_footer {
+  overflow: scroll;
+  position: relative;
+  left: 10px;
+}
+.letter_header {
+  width: 100%;
+  height: 7%;
+  max-height: 7%;
+  font-size: 20px;
+}
+.letter_content {
+  width: 100%;
+  height: 75%;
+  max-height: 80%;
+}
+.letter_footer {
+  width: 100%;
+  height: 10%;
+  max-height: 10%;
+  font-size: 20px;
+  text-align: end;
+  left: -10px;
+}
+.list-block[id='connectionItems'] {
+  overflow-y: scroll;
+  max-height: 132px;
+}
+#savebtn_wrap {
+  margin-top: 5vh;
+}
+
